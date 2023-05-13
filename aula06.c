@@ -155,30 +155,57 @@ int main()
         }
     }
     
-    //switch com conjunto natural
+    //switch com os conjuntos numéricos
     void Programa6 (void)
     {
         int n1;
         char letra;
         
-        printf("Digite uma letra (N): ");
+        printf("Digite um conjunto numérico (N,Z,Q,I,R): ");
         scanf(" %c", &letra);
+        
+        printf("\n");
         
         switch (letra)
         {
             case 'n':
             case 'N':
                 
-                for (n1 = 0; n1<=100; n1++)
+                for (n1 = 0; n1 <= 99; n1++)
                 {
-                    
                     printf("%d,", n1);
                 }
+                    printf("%d...", n1);
                 break;
                 
-                default: 
-                printf("Caracter inválido");
+            case 'z':
+            case 'Z':
+                
+                for (n1 = -50; n1 <= 49; n1++)
+                {
+                    printf("%d,", n1);
+                }
+                    printf("%d...", n1);
                 break;
+                
+            case 'q':
+            case 'Q':
+                    printf("Exemplos: 0,05; 5/100; 0,3333...");
+            break;
+            
+            case 'i':
+            case 'I':
+                    printf("Exemplos: 0,3146738573857; √2; √3...");
+            break;
+            
+            case 'r':
+            case 'R':
+                    printf("{X ∈ R || R = N+Z+Q+I}");
+            break;
+            
+            default: 
+                    printf("Caracter inválido");
+            break;
         }
     }
     
