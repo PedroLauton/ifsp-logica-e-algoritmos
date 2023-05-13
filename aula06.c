@@ -81,7 +81,7 @@ int main()
             break;
 
             
-            
+         
             case '/' :
             n3 = n1 / n2;
             printf("\nResultado: %.1f", n3);
