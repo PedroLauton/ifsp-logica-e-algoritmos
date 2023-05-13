@@ -77,7 +77,7 @@ int main()
 
         printf("\nDepois da inversão:\n");
         printf("\nA: %d", A);
-        printf("\nB: %d", B);*/
+        printf("\nB: %d", B);
 
     }
 
