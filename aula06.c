@@ -181,7 +181,10 @@ int main()
             case 'z':
             case 'Z':
                 
-                for (n1 = -50; n1 <= 49; n1++)
+                    n1 = -50;
+                    printf("...%d,", n1);
+                    
+                for (n1 = -49; n1 <= 49; n1++)
                 {
                     printf("%d,", n1);
                 }
