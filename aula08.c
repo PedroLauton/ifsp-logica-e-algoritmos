@@ -69,11 +69,6 @@ int main()
        }
     }
     
-    #include <stdio.h>
-
-int main()
-{
-    
     void Programa5 (void)
     {
       int vet[20] = {};
@@ -93,8 +88,6 @@ int main()
       }
       printf("\n\nSomatório: %d", soma);
     }
-    Programa1();
-}
     
     Programa5();
     
