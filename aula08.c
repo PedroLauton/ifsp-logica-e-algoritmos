@@ -69,7 +69,34 @@ int main()
        }
     }
     
-    Programa4();
+    #include <stdio.h>
+
+int main()
+{
+    
+    void Programa5 (void)
+    {
+      int vet[20] = {};
+      int k, soma;
+      int comp;
+      comp = sizeof vet / sizeof(int);
+      
+      for (k = 0; k < comp; k++)
+      {
+
+          if(k % 2 == 1)
+          {
+            vet[k] = k;
+            printf("%d ", vet[k]);
+            soma += vet[k];
+          }
+      }
+      printf("\n\nSomatório: %d", soma);
+    }
+    Programa1();
+}
+    
+    Programa5();
     
     return 0;
 }
