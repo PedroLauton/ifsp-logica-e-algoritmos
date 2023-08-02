@@ -21,7 +21,7 @@ Algumas das funcionalidades criadas são:
 - Etc.
 
 
-## Screenshots
+## Capturas de tela (Alguns dos códigos feitos)
 
 <img src="img/c1.png"/>
 
